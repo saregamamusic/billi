@@ -12,14 +12,14 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","CHADDI_CHOR")
+OWNER_USERNAME = getenv("OWNER_USERNAME","II_RAJPUT_SHIV_OP_II")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Sizhoo_Music_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "GaanaMusic_bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "˹sɪᴢʜᴏᴏ˼ ✘ ˹ᴍᴜsɪᴄ˼")
+BOT_NAME = getenv("BOT_NAME" , "𝗚𝗮𝗮𝗻𝗮 𝗠𝘂𝘀𝗶𝗰 🎶")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "Sizhoo_Music_Assistant")
-EVALOP = list(map(int, getenv("EVALOP", "7176027733").split()))
+ASSUSERNAME = getenv("ASSUSERNAME" , "𝗚𝗮𝗮𝗻𝗮 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 🎶")
+EVALOP = list(map(int, getenv("EVALOP", "6955568347").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -39,15 +39,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
    "UPSTREAM_REPO",
-   "https://github.com/rudra0055/Music",
+   "https://github.com/MISH0009/MishuXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "AaruXMusix")
 GIT_TOKEN = getenv(
    "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/WLC_TO_ROYALS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/WLC_TO_ROYALS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Dns_Official_Channel")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DNS_NETWORK")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -85,21 +85,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-   "START_IMG_URL", "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
+   "START_IMG_URL", "https://files.catbox.moe/2t62vg.jpg"
 )
 PING_IMG_URL = getenv(
-   "PING_IMG_URL", "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
+   "PING_IMG_URL", "https://files.catbox.moe/yyc0e8.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
-STATS_IMG_URL = "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
-STREAM_IMG_URL = "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/xt7hgw.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/5pkn9k.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/v2wc0z.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/v2wc0z.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/v2wc0z.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/v2wc0z.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/v2wc0z.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/v2wc0z.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/v2wc0z.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/v2wc0z.jpg"
 
 
 def time_to_seconds(time):
