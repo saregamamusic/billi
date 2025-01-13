@@ -1,7 +1,7 @@
 {
-    "name": "𝚁𝚄𝙳𝚁𝙰 𝙼𝚄𝚂𝙸𝙲",
+    "name": "Aaru Music",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/54b51c0a31729b1ac52dc.jpg",
+    "logo": "https://files.catbox.moe/pjbaen.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -29,12 +29,12 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://RUDRA_JAAT1:RUDRAJAAT@rudrajaat.zbir7lx.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://naitikgaming269:Harop@cluster0.vfsbi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "6783196044",
+        "value": "6955568347",
         "required": true
       },
       "STRING_SESSION": {
@@ -54,7 +54,7 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. .",
-        "value": "-1002129326327",
+        "value": "-1001894362208",
         "required": true
       }
     },
