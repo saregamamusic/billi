@@ -1,8 +1,8 @@
-<img src="https://files.catbox.moe/1y57l5.jpg" align="right" width="200" height="200"/>
+<img src="https://files.catbox.moe/hpkhnn.jpg" align="right" width="200" height="200"/>
 
-𝖣𝗇𝗌 𝖬𝗎𝗌𝗂𝖼 🎶 <img src="https://img.shields.io/github/v/release/TeamDns/DnsXMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
+Mish 𝖬𝗎𝗌𝗂𝖼 🎶 <img src="https://img.shields.io/github/v/release/TeamDns/DnsXMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
-[Dns Music](https://github.com/TeamDns/DnsXMusicBot) is a powerful Telegram Music + Video Bot written in Python, using Pyrogram and Py-Tgcalls. You can stream songs, videos, and even live streams in your group calls from multiple sources.
+[Mish Music](https://github.com/MISH0009/MishuXMusic) is a powerful Telegram Music + Video Bot written in Python, using Pyrogram and Py-Tgcalls. You can stream songs, videos, and even live streams in your group calls from multiple sources.
 
 ### 🎵 Key Features
 - **Supports Multiple Platforms:** YouTube, SoundCloud, Apple Music, Spotify, Resso, Live Streams, Telegram Audios, and Videos.
@@ -20,17 +20,17 @@
 
 ## 🚀 Heroku Deployment
 
-Click the button below to easily deploy **Dns Music Bot** on Heroku!
+Click the button below to easily deploy **Mish Music Bot** on Heroku!
 
 > If you encounter an error during app creation, try forking the repository first.
 
-<a href="https://dashboard.heroku.com/new?template=https://github.com/MISH0009/DNS-MUSIC"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/MISH0009/MishuXMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a>
 
 ---
 ## 🖇️ VPS Deployment Guide
 
 1. **Get the Required Variables**  
-   Download the [Necessary Variables](https://github.com/MISH0009/DNS-MUSIC/blob/master/sample.env) for your setup.
+   Download the [Necessary Variables](https://github.com/MISH0009/MishuXMusic/blob/master/sample.env) for your setup.
 
 - `Update and Install Dependencies: sudo apt update && sudo apt upgrade -y && sudo apt install -y ffmpeg git python3-pip python3-venv tmux nano`
 
@@ -38,7 +38,7 @@ Click the button below to easily deploy **Dns Music Bot** on Heroku!
 
   - Activate Virtual Env: `source .venv/bin/activate`
 
-  - Clone the Repository: `git clone https://github.com/MISH0009/DNS-MUSIC` && `cd DNS-MUSIC`
+  - Clone the Repository: `git clone https://github.com/MISH0009/MishuXMusic` && `cd MishXMUSIC`
 
   - Install Python Requirements: `pip install -r requirements.txt`
 
@@ -60,9 +60,9 @@ To exit the tmux session without stopping the bot, press `Ctrl+b`, then `d`.
 
 ___
 
-# 🎶 Dns Music Configurations
+# 🎶 Mish Music Configurations
 
-To get started with configuring Dns Music, check out the detailed instructions [here](https://github.com/MISH0009/DNS-MUSIC/blob/master/config/README.md).
+To get started with configuring Dns Music, check out the detailed instructions [here](https://github.com/MISH0009/MishuXMusic/blob/master/config/README.md).
 
 ---
 
@@ -78,13 +78,13 @@ If you need help or have any questions, feel free to reach out through any of th
 
 # ❤️ Show Your Support
 
-If you'd like to say **thank you** or support the ongoing development of DnsXMusicBot, you can:
+If you'd like to say **thank you** or support the ongoing development of MishXMusicBot, you can:
 
 - ⭐ [Star the Project](https://github.com/MISH0009/DNS) on GitHub.
 - 🍴 [Fork the Repository](https://github.com/MISH0009/DNS) and contribute.
 - 📝 Share your experience with tutorials or articles on [Dev.to](https://dev.to/), [Medium](https://medium.com/), or your personal blog to share your experience.
 
-Together, we can make **DnsXMusic** even better!
+Together, we can make **MishXMusic** even better!
 
 # 📑 Acknowledgements / Credits
 
