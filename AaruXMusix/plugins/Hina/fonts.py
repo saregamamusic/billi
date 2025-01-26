@@ -1,7 +1,7 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AaruXMusix.utils.Rudra_font import Fonts
+from AaruXMusix.utils.Aaru_font import Fonts
 from AaruXMusix import app
 
 @app.on_message(filters.command(["font", "fonts"]))
