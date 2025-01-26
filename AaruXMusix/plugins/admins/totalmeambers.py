@@ -1,4 +1,4 @@
-from AaruXMusix.utils.Rudra_ban import admin_filter
+from AaruXMusix.utils.Aaru_ban import admin_filter
 import os
 import csv
 from pyrogram import Client, filters
