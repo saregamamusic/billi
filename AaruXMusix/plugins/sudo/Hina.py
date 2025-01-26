@@ -4,7 +4,7 @@ from AaruXMusix import app, userbot
 from AaruXMusix.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from AaruXMusix.utils.Rudra_ban import admin_filter
+from AaruXMusix.utils.Aaru_ban import admin_filter
 
 
 
