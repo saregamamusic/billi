@@ -4,7 +4,7 @@ from pyrogram import filters
 from AaruXMusix.utils.Aaru_ban import admin_filter
 from AaruXMusix.mongo.notesdb import *
 from AaruXMusix.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
-from AaruXMusix.utils.Hinadb import user_admin
+from AaruXMusix.utils.Aarudb import user_admin
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , Message , CallbackQuery
 from pyrogram.enums import ChatMemberStatus
 
