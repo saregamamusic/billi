@@ -6,7 +6,7 @@ from AaruXMusix import app
 from pyrogram.types import ChatPermissions, ChatPrivileges
 from config import OWNER_ID
 from AaruXMusix.misc import SUDOERS
-from AaruXMusix.utils.Rudra_ban import admin_filter
+from AaruXMusix.utils.Aaru_ban import admin_filter
 from pyrogram.types import (
     Message,
     CallbackQuery,
