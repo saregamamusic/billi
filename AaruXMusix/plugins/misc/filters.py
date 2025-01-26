@@ -1,7 +1,7 @@
 import re
 from AaruXMusix import app
 from config import BOT_USERNAME
-from AaruXMusix.utils.Rudra_ban import admin_filter
+from AaruXMusix.utils.Aaru_ban import admin_filter
 from AaruXMusix.mongo.filtersdb import *
 from AaruXMusix.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
 from AaruXMusix.utils.Hinadb import user_admin
