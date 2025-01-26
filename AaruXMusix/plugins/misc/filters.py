@@ -4,7 +4,7 @@ from config import BOT_USERNAME
 from AaruXMusix.utils.Aaru_ban import admin_filter
 from AaruXMusix.mongo.filtersdb import *
 from AaruXMusix.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from AaruXMusix.utils.Hinadb import user_admin
+from AaruXMusix.utils.Aarudb import user_admin
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
