@@ -2,7 +2,7 @@ import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
 from AaruXMusix import app
 from pyrogram import filters
-from AaruXMusix.utils.Rudra_ban import admin_filter
+from AaruXMusix.utils.Aaru_ban import admin_filter
 
 
 
