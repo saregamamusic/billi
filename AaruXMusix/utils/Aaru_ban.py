@@ -1,5 +1,5 @@
 from pyrogram import filters
-from AaruXMusix.utils.Aaru_ban.py import Aaru_check
+from AaruXMusix.utils.admin_check import admin_check
 
 
 USE_AS_BOT = True
