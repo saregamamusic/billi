@@ -11,7 +11,7 @@ from AaruXMusix.misc import db
 from AaruXMusix.utils.database import add_active_video_chat, is_active_chat
 from AaruXMusix.utils.exceptions import AssistantErr
 from AaruXMusix.utils.inline import aq_markup, close_markup, stream_markup
-from AaruXMusix.utils.pastebin import AaruXMusixBin
+from AaruXMusix.utils.pastebin import RudraBin
 from AaruXMusix.utils.stream.queue import put_queue, put_queue_index
 from AaruXMusix.utils.thumbnails import get_thumb
 
@@ -110,13 +110,14 @@ async def stream(
                         user_name,
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
-                )
+
+)
                 db[chat_id][0]["mystic"] = run
                 db[chat_id][0]["markup"] = "stream"
         if count == 0:
             return
         else:
-            link = await AaruXMusixBin(msg)
+            link = await RudraBin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
@@ -185,7 +186,7 @@ async def stream(
                 forceplay=forceplay,
             )
             img = await get_thumb(vidid)
-             button = stream_markup(_, chat_id)
+            button = stream_markup(_, chat_id)
             run = await app.send_photo(
                 original_chat_id,
                 photo=img,
@@ -220,7 +221,8 @@ async def stream(
             await app.send_message(
                 chat_id=original_chat_id,
                 text=_["queue_4"].format(position, title[:27], duration_min, user_name),
-                reply_markup=InlineKeyboardMarkup(button),
+
+reply_markup=InlineKeyboardMarkup(button),
             )
         else:
             if not forceplay:
@@ -325,7 +327,8 @@ async def stream(
             await app.send_message(
                 chat_id=original_chat_id,
                 text=_["queue_4"].format(position, title[:27], duration_min, user_name),
-                reply_markup=InlineKeyboardMarkup(button),
+
+reply_markup=InlineKeyboardMarkup(button),
             )
         else:
             if not forceplay:
