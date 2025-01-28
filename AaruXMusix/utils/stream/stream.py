@@ -194,13 +194,12 @@ run = await app.send_photo(
         title[:23],
         duration_min,
         user_name,
-    ),
-    reply_markup=InlineKeyboardMarkup(button),
-    parse_mode="HTML"  # Ensure the parse mode is set to HTML
-)
-db[chat_id][0]["mystic"] = run
-db[chat_id][0]["markup"] = "stream"                
-elif streamtype == "soundcloud":
+),
+                reply_markup=InlineKeyboardMarkup(button),
+            )
+            db[chat_id][0]["mystic"] = run
+            db[chat_id][0]["markup"] = "stream"
+    elif streamtype == "soundcloud":
         file_path = result["filepath"]
         title = result["title"]
         duration_min = result["duration_min"]
