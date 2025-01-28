@@ -11,7 +11,7 @@ from AaruXMusix.misc import db
 from AaruXMusix.utils.database import add_active_video_chat, is_active_chat
 from AaruXMusix.utils.exceptions import AssistantErr
 from AaruXMusix.utils.inline import aq_markup, close_markup, stream_markup
-from AaruXMusix.utils.pastebin import RudraBin
+from AaruXMusix.utils.pastebin import AaruXMusixBin
 from AaruXMusix.utils.stream.queue import put_queue, put_queue_index
 from AaruXMusix.utils.thumbnails import get_thumb
 
@@ -116,7 +116,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await RudraBin(msg)
+            link = await AaruXMusixBin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
@@ -185,21 +185,21 @@ async def stream(
                 forceplay=forceplay,
             )
             img = await get_thumb(vidid)
-button = stream_markup(_, chat_id)
-run = await app.send_photo(
-    original_chat_id,
-    photo=img,
-    caption=_["stream_1"].format(
-        f"https://t.me/{app.username}?start=info_{vidid}",
-        title[:23],
-        duration_min,
-        user_name,
-     ),
+            button = stream_markup(_, chat_id)
+            run = await app.send_photo(
+                original_chat_id,
+                photo=img,
+                caption=_["stream_1"].format(
+                    f"https://t.me/{app.username}?start=info_{vidid}",
+                    title[:23],
+                    duration_min,
+                    user_name,
+                ),
                 reply_markup=InlineKeyboardMarkup(button),
             )
-        db[chat_id][0]["mystic"] = run
-        db[chat_id][0]["markup"] = "stream"                
-elif streamtype == "soundcloud":
+            db[chat_id][0]["mystic"] = run
+            db[chat_id][0]["markup"] = "stream"
+    elif streamtype == "soundcloud":
         file_path = result["filepath"]
         title = result["title"]
         duration_min = result["duration_min"]
@@ -214,7 +214,6 @@ elif streamtype == "soundcloud":
                 streamtype,
                 user_id,
                 "audio",
-            )
             )
             position = len(db.get(chat_id)) - 1
             button = aq_markup(_, chat_id)
