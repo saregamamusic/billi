@@ -199,8 +199,7 @@ run = await app.send_photo(
     parse_mode="HTML"  # Ensure the parse mode is set to HTML
 )
 db[chat_id][0]["mystic"] = run
-db[chat_id][0]["markup"] = "stream"
-                
+db[chat_id][0]["markup"] = "stream"                
 elif streamtype == "soundcloud":
         file_path = result["filepath"]
         title = result["title"]
