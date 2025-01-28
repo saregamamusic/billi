@@ -201,7 +201,7 @@ run = await app.send_photo(
 db[chat_id][0]["mystic"] = run
 db[chat_id][0]["markup"] = "stream"
                 
-    elif streamtype == "soundcloud":
+elif streamtype == "soundcloud":
         file_path = result["filepath"]
         title = result["title"]
         duration_min = result["duration_min"]
