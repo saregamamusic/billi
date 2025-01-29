@@ -34,27 +34,27 @@ def stream_markup_timer(_, chat_id, played, dur):
     umm = math.floor(percentage)
     
     if 0 < umm <= 10:
-        return "⚪─────────"
+        bar "⚪─────────"
     elif 10 < umm <= 20:
-        return "━⚪────────"
+        bar "━⚪────────"
     elif 20 < umm <= 30:
-        return "━━⚪───────"
+        bar "━━⚪───────"
     elif 30 < umm <= 40:
-        return "━━━⚪──────"
+        bar "━━━⚪──────"
     elif 40 < umm <= 50:
-        return "━━━━⚪─────"
+        bar "━━━━⚪─────"
     elif 50 < umm <= 60:
-        return "━━━━━⚪────"
+        bar "━━━━━⚪────"
     elif 60 < umm <= 70:
-        return "━━━━━━⚪───"
+        bar "━━━━━━⚪───"
     elif 70 < umm <= 80:
-        return "━━━━━━━⚪──"
+        bar "━━━━━━━⚪──"
     elif 80 < umm <= 90:
-        return "━━━━━━━━⚪─"
+        bar "━━━━━━━━⚪─"
     elif 90 < umm <= 100:
-        return "━━━━━━━━━⚪"
+        bar "━━━━━━━━━⚪"
     else:
-        return "───────────"
+        bar "───────────"
         
     buttons = [
         [
