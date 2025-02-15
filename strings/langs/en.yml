@@ -174,8 +174,18 @@ queue_6 : "<b>🕚 ᴅᴜʀᴀᴛɪᴏɴ :</b> ᴜɴᴋɴᴏᴡɴ ᴅᴜʀᴀᴛ
 queue_7 : "\nᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇᴅ ʟɪsᴛ."
 queue_8 : "<b>{0} ᴘʟᴀʏᴇʀ</b>\n\n🎄 <b>sᴛʀᴇᴀᴍɪɴɢ :</b> {1}\n\n🔗 <b>sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> {2}\n🥀 <b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}\n{4}"
 
-stream_1 : "<blockquote>▣ 𝗕𝗼𝘁 𝗦𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴</blockquote>\n<blockquote>━━━━━━━━━━━━━━━━━━━━━━━━\n<b>❍ 𝖳𝗂𝗍𝗅𝖾 :</b> <a href={0}>{1}</a>\n<b>❍ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇 :</b> {2} 𝖬𝗂𝗇𝗎𝗍𝖾𝗌\n<b>❍ 𝖱𝖾𝗊𝗎𝖾𝗌𝗍𝖾𝖽 𝖡𝗒 :</b> {3}\n━━━━━━━━━━━━━━━━━━━━━━━━</blockquote>"
-stream_2 : "<blockquote>▣ 𝗕𝗼𝘁 𝗦𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴</blockquote>\n━━━━━━━━━━━━━━━━━━━━━━━━<blockquote><b>❍ 𝖲𝗍𝗋𝖾𝖺𝗆 𝖳𝗒𝗉𝖾 :</b> 𝖫𝗂𝗏𝖾 𝖲𝗍𝗋𝖾𝖺𝗆 [ 𝖴𝗋𝗅 ]\n<b>❍ 𝖱𝖾𝗊𝗎𝖾𝗌𝗍𝖾𝖽 𝖡𝗒 :</b> {0}\n━━━━━━━━━━━━━━━━━━━━━━━━</blockquote>"
+stream_1 = """<blockquote>▣ 𝗕𝗼𝘁 𝗦𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴</blockquote>
+<blockquote>━━━━━━━━━━━━━━━━━━━━━━━━</blockquote>
+<blockquote><b>❍ 𝖳𝗂𝗍𝗅𝖾 :</b> <a href="{0}">{1}</a></blockquote>
+<blockquote><b>❍ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇 :</b> {2} 𝖬𝗂𝗇𝗎𝗍𝖾𝗌</blockquote>
+<blockquote><b>❍ 𝖱𝖾𝗊𝗎𝗲𝗌𝗍𝖾𝖽 𝖡𝗒 :</b> {3}</blockquote>
+<blockquote>━━━━━━━━━━━━━━━━━━━━━━━━</blockquote>"""
+
+stream_2 = """<blockquote>▣ 𝗕𝗼𝘁 𝗦𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴</blockquote>
+<blockquote>━━━━━━━━━━━━━━━━━━━━━━━━</blockquote>
+<blockquote><b>❍ 𝖲𝗍𝗋𝖾𝖺𝗆 𝖳𝗒𝗉𝖾 :</b> 𝖫𝗂𝗏𝖾 𝖲𝗍𝗋𝖾𝖺𝗆 [ <a href="{0}">𝖴𝗋𝗅</a> ]</b></blockquote>
+<blockquote><b>❍ 𝖱𝖾𝗊𝗎𝗲𝗌𝗍𝖾𝖽 𝖡𝗒 :</b> {1}</blockquote>
+<blockquote>━━━━━━━━━━━━━━━━━━━━━━━━</blockquote>"""
 
 CLOSE_BUTTON  : "ᴄʟᴏsᴇ"
 BACK_BUTTON : "🔙ʙᴀᴄᴋ🔙"
